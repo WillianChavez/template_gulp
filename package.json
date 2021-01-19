@@ -1,0 +1,34 @@
+{
+    "name": "pug",
+    "version": "1.0.0",
+    "description": "aprendiendo a usar pug",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "willian chávez",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.12.3",
+        "@babel/preset-env": "^7.12.1",
+        "@babel/register": "^7.12.1",
+        "browser-sync": "^2.26.13",
+        "cssnano": "^4.1.10",
+        "eslint": "^7.13.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.22.1",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-babel": "^8.0.0",
+        "gulp-cache-bust": "^1.4.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-postcss": "^9.0.0",
+        "gulp-pug": "^4.0.1",
+        "gulp-purgecss": "^3.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-terser": "^1.4.1"
+    }
+}

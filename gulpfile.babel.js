@@ -37,7 +37,10 @@ const pluginsCSS = [cssnano(), autoprefixer()]
 
 gulp.task('babel', () => {
     return gulp
-        .src('./src/js/*.js')
+        .src([
+            'node_modules/babel-polyfill/dist/polyfill.js',
+            './src/js/*.js']
+            )
         .pipe(plumber())
         .pipe(concat('scripts-min.js'))
         .pipe(babel())
